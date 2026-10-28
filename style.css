@@ -9,7 +9,8 @@ body {
 }
 
 .top,
-.info {
+.info,
+.quote {
   padding: 15px 200px 75px;
 }
 
@@ -91,6 +92,26 @@ body {
   margin-top: 8px;
   text-align: center;
   font-size: 18px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #6b7280;
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 75px;
+  text-align: justify;
+}
+
+.quote-author {
+  color: #1f2937;
+  font-weight: 900;
+  text-align: right;
+  margin-top: 25px;
 }
 
 button {
