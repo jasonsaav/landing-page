@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,300&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,7 +16,8 @@ body {
   padding: 15px 200px 75px;
 }
 
-.top {
+.top,
+.footer {
   background-color: #1f2937;
 }
 
@@ -51,7 +54,7 @@ body {
 }
 
 .placeholder {
-  background-color: gray;
+  background-color: #808080;
   width: 600px;
   height: 200px;
   color: rgb(228, 226, 226);
@@ -114,12 +117,42 @@ body {
   margin-top: 25px;
 }
 
+.btn-hero {
+  border: none;
+}
+
+.btn-cta {
+  border: 2px solid #ffffff;
+}
+
+.cta {
+  background-color: #3882f6;
+  margin: 75px 200px;
+  padding: 50px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text {
+  color: #e5e7eb;
+}
+
+.footer {
+  color: #afafaf;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 button {
   color: white;
   background-color: #3882f6;
   border-radius: 8px;
-  border: none;
   padding: 8px 24px;
+  cursor: pointer;
 }
 
 ul {
@@ -132,5 +165,5 @@ ul {
 
 a {
   text-decoration: none;
-  color: rgb(175, 175, 175);
+  color: #afafaf;
 }
